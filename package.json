@@ -1,0 +1,20 @@
+{
+  "name": "file_transport",
+  "version": "1.0.0",
+  "description": "Transfers file using webRTC",
+  "main": "server.js",
+  "scripts": {
+    "startDev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "SauravGaur",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
